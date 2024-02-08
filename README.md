@@ -1,73 +1,123 @@
-# Social Media App Frontend
+# WeShot
 
-## Title 
+## Introduction:
 
-WeShot
+Hi, my name is [Ibrohim](https://linkedin.com/in/abdibrokhim), founder of WeShot, and I'm here to introduce you to a new era of social media—a platform where moments are not just captured but cherished and shared in their most authentic form. Let's embark on a journey through the core features that make WeShot an innovative and engaging platform for users across the globe.
 
-## Description
+## About WeShot
 
-Welcome to WeShot, the ultimate social media haven where your moments aren't just shared, they're celebrated. Inspired by the visual storytelling of Pinterest, the vibrant community of Instagram, and the personalized experience of Spotify, WeShot is where life's snapshots become part of a larger, more colorful tapestry.
+### Shot & Share: 
+Imagine a platform where every snapshot you take becomes a part of a vibrant canvas showcasing the pulse of the world. With WeShot, capturing life as it unfolds is just a tap away. Whether it's the spontaneous laughter of friends or the grandeur of a sunset, WeShot empowers you to share your world, one shot at a time. Our intuitive design ensures that the essence of the moment is never lost in translation, but instead, shared to inspire.
 
-Capture & Share: At the heart of WeShot is the simple yet powerful idea of capturing life as it happens. From the spontaneous to the spectacular, share your world, one moment at a time.
+### Dive into a Sea of Stories:
+Now, let me guide you through a sea of stories, a tapestry of human experience as vast and varied as life itself. Each scroll through WeShot is a voyage across cultures, emotions, and personal narratives. Content on WeShot resonates because it's curated for you, echoing your interests, passions, and the endless quest for discovery. It's where every user's story finds a home and every scroll tells a tale.
 
-Explore & Discover: Dive into a sea of stories. With WeShot, every scroll is a journey through diverse experiences, emotions, and adventures. Discover content that resonates with your tastes, interests, and moods.
+### Personalized for You:
+Personalization is not just a feature—it's the foundation of WeShot. Our platform learns and adapts to your preferences, curating a visual feed that's as unique as your fingerprint. The more you engage with the content, the more it mirrors your tastes, becoming a reflection of your personality and your ever-evolving journey. WeShot isn't just an app; it's your personal storyteller.
 
-Personalized For You: Like Spotify's playlists tailored to your musical taste, WeShot curates a visual feed that evolves with your preferences. The more you explore, the more it becomes a reflection of you.
+### Powered by AI:
+In a world brimming with data, WeShot harnesses the transformative power of AI language and vision models to elevate your storytelling. Our partnership with Microsoft ensures that we're equipped with the most advanced AI capabilities, offering our users an unparalleled experience. From content discovery to creation, every aspect of WeShot is enhanced by AI, making the complex simple and the ordinary, extraordinary.
 
-Powered by GPT4Vision: WeShot harnesses the cutting-edge capabilities of GPT4 Vision to elevate your storytelling. 
 
-## Preview Demo
+## WeShot app
 
-[WeShot 1.0](https://vimeo.com/909013220?share=copy)
+### Demos
+
+[WeShot v1.0 demo](https://vimeo.com/909013220?share=copy)
+
+[WeShot v1.1 demo](https://linkedin.com/in/abdibrokhim)
+
+### Screenshots
+
+[WeShot v1.0 screenshots](https://vimeo.com/909013220?share=copy)
+
+[WeShot v1.1 screenshots](https://linkedin.com/in/abdibrokhim)
+
+### Pitch
+
+[Watch WeShot Pitch by me](https://linkedin.com/in/abdibrokhim)
 
 ## Getting Started
 
-### Dependencies
+### Pre-requisites
 
 * Flutter
+* Dart
+* Android Studio
+* Android Emulator
+* Xcode
+* iOS Simulator
 
-### Installing
+### Installation
+For detailed installation instructions, you can refer to the official documentation for each of the following tools:
 
-* Clone the repo
-* Run `flutter pub get` to install dependencies
+[Install Flutter](https://flutter.dev/docs/get-started/install)
 
-#### Clone repo
+[Install Dart](https://dart.dev/get-dart)
+
+[Install Android Studio](https://developer.android.com/studio)
+
+[Install Xcode](https://developer.apple.com/xcode/)
+
+[Install iOS Simulator](https://developer.apple.com/xcode/)
+
+[Install Android Emulator](https://developer.android.com/studio)
+
+
+
+### Clone repository
 ```
-git clone https://github.com/abdibrokhim/Social-Media-App-Flutter-Redux
+git clone https://github.com/abdibrokhim/weshot
 ```
 
-#### Go to the project directory
+### Go to the project directory
 ```
-cd socialmediaapp
+cd weshot
 ```
 
-#### Install dependencies
+### Install dependencies
 ```
 flutter pub get
 ```
 
+## Run on iOS
+
+### Open simulator
+```
+open -a simulator
+```
+
 ### Executing program
-
-* Run `flutter run` to run the app
-
 ```bash
 flutter run
 ```
 
-## Run on iOS/Android/Chrome
+## Run on Android
 
-* Check documantation for more info [Run on iOS](https://flutter.dev/docs/get-started/install/macos#deploy-to-ios-devices)
-
-
-## Start the Backend
-
-* Clone the repo
-* Check `README.md` for more info
-
-
-#### Clone repo
-
+### Open emulator and Executing program
 ```bash
-git clone https://github.com/abdibrokhim/Social-Media-App-Backend
+flutter run
 ```
 
+
+
+## Run on Chrome
+
+### Executing program
+```bash
+flutter run -d chrome
+```
+
+
+## External resources
+
+Check documantation for more info: 
+
+[Getting started with iOS](https://flutter.dev/docs/get-started/install/macos#deploy-to-ios-devices)
+
+[Getting started with Android](https://docs.flutter.dev/get-started/install/macos/mobile-android)
+
+[Getting started with Chrome](https://flutter.dev/docs/get-started/web)
+
+
+`Note:` Make sure you already have Backend API running on your local machine or on a server. You can find the backend API [here](https://github.com/abdibrokhim/Social-Media-App-Backend). And follow the instructions written in the [README.md](https://github.com/abdibrokhim/Social-Media-App-Backend/blob/main/README.md).
