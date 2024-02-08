@@ -84,7 +84,7 @@ class _AddSocialMediaLinksDialogState extends State<AddSocialMediaLinksDialog> {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Text('Edit Social Media Link'),
+                    const Text('Add Social Media Link'),
                     const Divider(),
                     if (errors.isNotEmpty)
                       CustomErrorWidget(

@@ -368,9 +368,9 @@ class _CreatePostDialogState extends State<CreatePostDialog>
                                 } else {
                                   AppLog.log().i('Using AI to generate post title and description.');
                                   if (imageUrl != null) {
-                                    AppLog.log().i('Simulation started.');
                                     // TODO: Need to fix this
                                     store.dispatch(GeminiAutocompleteRequestAction(imageUrl!));
+                                    // AppLog.log().i('Simulation started.');
                                     // store.dispatch(AIAutocompleteSimulateRequestAction());
                                   } else {
                                     showToast(message: "Could not recognize image.", bgColor: getNotificationColor(NotificationColor.red), webBgColor: "red");

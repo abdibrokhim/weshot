@@ -7,7 +7,6 @@ import 'package:weshot/screens/settings/settings_screen.dart';
 import 'package:weshot/store/app/app_store.dart';
 import 'package:weshot/utils/env.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:weshot/utils/network/dependency_injection.dart';
 import 'package:weshot/utils/routes.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -16,8 +15,6 @@ import 'package:wechat_assets_picker/wechat_assets_picker.dart';
 
 import 'package:weshot/utils/extensions.dart';
 import 'package:weshot/screens/splash/splash_screen.dart';
-// import 'package:flutter_stripe/flutter_stripe.dart';
-// import 'package:flutter_stripe_web/flutter_stripe_web.dart';
 import 'package:weshot/utils/payment/stripe/stripe_platform.dart';
 import 'package:pull_to_refresh_flutter3/pull_to_refresh_flutter3.dart';
 
@@ -31,23 +28,9 @@ Future<void> main() async {
   await initializeFirebase();
   await StripeInterface.initStripe();
 
-  // FlutterError.onError = (FlutterErrorDetails details) {
-  //   FlutterError.dumpErrorToConsole(details);
-  //   runApp(ErrorWidgetClass(errorDetails: details));
-  // };
-
-  // runZonedGuarded(() {
-  //   runApp(const MainApp());
-  // }, (error, stackTrace) {
-  //   print('runZonedGuarded: Caught error: $error');
-  //   print('runZonedGuarded: StackTrace: $stackTrace');
-  //   runApp(ErrorWidgetClass(errorDetails: error.toString()));
-  // });
   
   runApp(const MainApp());
   
-  DependencyInjection.init();
-
   SystemChrome.setSystemUIOverlayStyle(
     SystemUiOverlayStyle.dark.copyWith(statusBarColor: Colors.transparent),
   );
