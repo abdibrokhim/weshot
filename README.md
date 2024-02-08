@@ -121,3 +121,12 @@ Check documantation for more info:
 
 
 `Note:` Make sure you already have Backend API running on your local machine or on a server. You can find the backend API [here](https://github.com/abdibrokhim/Social-Media-App-Backend). And follow the instructions written in the [README.md](https://github.com/abdibrokhim/Social-Media-App-Backend/blob/main/README.md).
+
+`Note:` After running the app, you can either sign in with the following credentials (if you need pre-populated data, like: posts, social links, interest, and etc.):
+
+```
+username: ibrohim
+password: ibrohim
+```
+
+or you can create a new account and sign in.
