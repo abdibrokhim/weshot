@@ -29,9 +29,9 @@ In a world brimming with data, WeShot harnesses the transformative power of AI l
 
 ### Screenshots
 
-[WeShot v1.0 screenshots](https://vimeo.com/909013220?share=copy)
+[WeShot v1.0 screenshots](https://drive.google.com/drive/folders/1P0cDtksRk04TRfRpofKHW6ychCRdeKYr?usp=sharing)
 
-[WeShot v1.1 screenshots](https://linkedin.com/in/abdibrokhim)
+[WeShot v1.1 screenshots](https://drive.google.com/drive/folders/1jA7khPingmqnWtHsBdmqAyXxvBpb6Xoy?usp=sharing)
 
 ### Pitch
 
