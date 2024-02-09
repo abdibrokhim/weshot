@@ -107,7 +107,8 @@ class _EditUserInfoDialogState extends State<EditUserInfoDialog>
       if (kIsWeb) {
         uploadTask = firebaseStorageRef.putData(_imageData!, metadata);
       } else {
-        uploadTask = firebaseStorageRef.putFile(io.File(_imageFile!.path), metadata);
+        uploadTask = firebaseStorageRef.putData(_imageData!, metadata);
+        // uploadTask = firebaseStorageRef.putFile(io.File(_imageFile!.path), metadata);
       }
 
       TaskSnapshot taskSnapshot = await uploadTask;
