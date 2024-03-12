@@ -19,22 +19,12 @@ Personalization is not just a feature—it's the foundation of WeShot. Our platf
 In a world brimming with data, WeShot harnesses the transformative power of AI language and vision models to elevate your storytelling. Our partnership with Microsoft ensures that we're equipped with the most advanced AI capabilities, offering our users an unparalleled experience. From content discovery to creation, every aspect of WeShot is enhanced by AI, making the complex simple and the ordinary, extraordinary.
 
 
-## WeShot app
-
-### Demos
-
-[WeShot v1.0 demo](https://vimeo.com/909013220?share=copy)
-
-[WeShot v1.1 demo](https://www.youtube.com/watch?v=GjeXKXisffQ&t=115s)
-
-### Screenshots
-
-[WeShot v1.0 screenshots](https://drive.google.com/drive/folders/1P0cDtksRk04TRfRpofKHW6ychCRdeKYr?usp=sharing)
-
-[WeShot v1.1 screenshots](https://drive.google.com/drive/folders/1jA7khPingmqnWtHsBdmqAyXxvBpb6Xoy?usp=sharing)
-
-### Pitch
-
-[Watch WeShot Pitch by me](https://youtu.be/GjeXKXisffQ)
+## 📚 Resources
+- [Pitch](https://youtu.be/GjeXKXisffQ)
+- [Official Website](https://weshot.vercel.app/)
+- [WeShot v1.0 demo](https://vimeo.com/909013220?share=copy)
+- [WeShot v1.1 demo](https://www.youtube.com/watch?v=GjeXKXisffQ&t=115s)
+- [WeShot v1.0 screenshots](https://drive.google.com/drive/folders/1P0cDtksRk04TRfRpofKHW6ychCRdeKYr?usp=sharing)
+- [WeShot v1.1 screenshots](https://drive.google.com/drive/folders/1jA7khPingmqnWtHsBdmqAyXxvBpb6Xoy?usp=sharing)
 
 `Note:` Check out [INSTRUCTIONS.md](https://github.com/abdibrokhim/weshot/blob/main/INSTRUCTIONS.md) for detailed instructions on how to run the app on iOS, Android, and Chrome.
